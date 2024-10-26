@@ -18,6 +18,7 @@ const Technologies = () => (
               <img src={`/icons/${Skill.title}.svg`} height={40} width={40} />
             ):(
               <Skill.Component size="3rem" /> 
+              
             )}
           </picture>
           <ListContainer>
