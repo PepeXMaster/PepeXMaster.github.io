@@ -14,7 +14,11 @@ const Technologies = () => (
       {Skills.map((Skill) => (
         <ListItem key={Skill.slug}>
           <picture>
-            <Skill.Component size="3rem" />
+            {Skill.icon=="true"?(
+              <img src={`/icons/${Skill.title}.svg`} height={40} width={40} />
+            ):(
+              <Skill.Component size="3rem" /> 
+            )}
           </picture>
           <ListContainer>
             <ListTitle>{Skill.title}</ListTitle>
