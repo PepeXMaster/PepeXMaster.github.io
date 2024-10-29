@@ -11,7 +11,7 @@ const Header = () => (
         href="/"
         style={{ display: 'flex', alignItems: 'center', color: "white" }}>
 
-        <img src="/gua.jpg" height={40} width={40} /> <span style={{ marginLeft: 10, marginTop: 7, fontSize: 20 }} >Vipul Jha</span>
+        <img src="/roboticArm.jpg" height={40} width={40} color='#0000'/> <span style={{ marginLeft: 10, marginTop: 7, fontSize: 20 }} >MyPortfolio</span>
 
       </Link>
     </Div1>

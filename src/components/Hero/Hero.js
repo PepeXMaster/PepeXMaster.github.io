@@ -9,14 +9,14 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Hola,
+        JOSÉ LUIS
         </SectionTitle>
         <SectionText>
-          Sinceramente me considero gay
+        Hi, I'm a mechatronics engineer with a concentration in automotive engineering. I'm always eager to learn and strive to stay a step ahead, constantly seeking innovative solutions and growth in everything I do as an engineer.
         </SectionText>
         <Button onClick={(e) => {
           e.preventDefault();
-          window.location.href = '/files/resume.pdf';
+          window.location.href = 'https://drive.google.com/file/d/1VbU4FhPj7AK7TDn6LNm1EW863enLKOQY/view?usp=sharing';
         }}>My Resume</Button>
       </LeftSection>
     </Section>
