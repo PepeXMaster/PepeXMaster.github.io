@@ -2,13 +2,16 @@
   "name": "portfolio_nextjs",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://PepeXMaster.github.io/portfolio_nextjs",
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
-    "start": "next start"
+    "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
-    "next": "13.2.4",
+    "next": "^15.0.2",
     "ngrok": "^4.3.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -17,6 +20,7 @@
     "styled-normalize": "^8.0.7"
   },
   "devDependencies": {
-    "next-optimized-images": "^2.6.2"
+    "gh-pages": "^6.2.0",
+    "next-optimized-images": "^2.3.0"
   }
 }
