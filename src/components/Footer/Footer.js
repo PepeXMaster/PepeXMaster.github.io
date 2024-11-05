@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
+import { AiFillLinkedin,AiOutlineWhatsApp, AiOutlineMail } from 'react-icons/ai';
 import { Link } from '../../styles/GlobalComponents';
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
@@ -12,12 +12,18 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Chat</LinkTitle>
-          <LinkItem href="www.linkedin.com/in/joseluisglzfra">LinkedIn</LinkItem>
+          <LinkItem href="https://www.linkedin.com/in/jose-luis-gonzalez-fragoso-b6bb63268/">LinkedIn</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:hey@vipuljha.com">
-            hey@vipuljha.com
+          <LinkItem href="mailto:pepe3fragoso@gmail.com">
+            JoseLuis@mail.com
+          </LinkItem>
+        </LinkColumn>
+        <LinkColumn>
+          <LinkTitle>Phone</LinkTitle>
+          <LinkItem>
+            +52 (868) 101 2540
           </LinkItem>
         </LinkColumn>
       </LinkList>
@@ -26,17 +32,14 @@ const Footer = () => {
           {/* <Slogan>Copyright &copy; {year} <Link href="https://www.vipuljha.com">  Vipul Jha</Link>. All rights reserved.</Slogan> */}
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/lordarcadius">
-            <AiFillGithub size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/lordarcadius/">
+          <SocialIcons href="https://www.linkedin.com/in/jose-luis-gonzalez-fragoso-b6bb63268/">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.instagram.com/lordarcadius">
-            <AiFillInstagram size="3rem" />
+          <SocialIcons href="https://wa.me/528681012540">
+            <AiOutlineWhatsApp size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.twitter.com/lordarcadius">
-            <AiFillTwitterCircle size="3rem" />
+          <SocialIcons href="mailto:pepe3fragoso@gmail.com">
+            <AiOutlineMail size="3rem" />
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>

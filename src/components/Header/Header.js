@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
+import { AiFillLinkedin, AiOutlineWhatsApp, AiOutlineMail } from 'react-icons/ai';
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 import { CiMail } from "react-icons/ci";
 
@@ -34,20 +34,14 @@ const Header = () => (
       
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com/lordarcadius">
-        <AiFillGithub size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://github.com/lordarcadius">
-        <CiMail size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://www.linkedin.com/in/lordarcadius/">
+      <SocialIcons href="https://www.linkedin.com/in/jose-luis-gonzalez-fragoso-b6bb63268/">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.instagram.com/lordarcadius">
-        <AiFillInstagram size="3rem" />
+      <SocialIcons href="https://wa.me/528681012540">
+        <AiOutlineWhatsApp size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.twitter.com/lordarcadius">
-        <AiFillTwitterCircle size="3rem" />
+      <SocialIcons href="mailto:pepe3fragoso@gmail.com">
+        <AiOutlineMail size="3rem" />
       </SocialIcons>
     </Div3>
   </Container>
