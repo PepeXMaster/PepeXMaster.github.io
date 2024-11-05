@@ -15,7 +15,7 @@ const Home = () => {
       </Section>
       <Projects />
       <Technologies />
-      <Acomplishments />
+      {/* <Acomplishments /> */}
     </Layout>
   );
 };

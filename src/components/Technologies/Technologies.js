@@ -8,14 +8,14 @@ const Technologies = () => (
     <SectionDivider divider />
     <SectionTitle>Skills</SectionTitle>
     <SectionText>
-    I have extensive experience working with a variety of technologies as a developer. I've developed and maintained multiple projects using these technologies, and I'm always eager to learn more.
+    Skilled in robotics, manufacturing, and design equipment. Proven track record of developing and maintaining projects using various technologies, with a strong desire to continuously learn and grow.
     </SectionText>
     <List>
       {Skills.map((Skill) => (
         <ListItem key={Skill.slug}>
           <picture>
             {Skill.icon=="true"?(
-              <img src={`/icons/${Skill.title}.svg`} height={40} width={40} />
+              <img src={`/icons/${Skill.title}.svg`} height={45} width={45} />
             ):(
               <Skill.Component size="3rem" /> 
               
