@@ -34,7 +34,7 @@ const Header = () => (
       
     </Div2>
     <Div3>
-      <SocialIcons href="https://www.linkedin.com/in/jose-luis-gonzalez-fragoso-b6bb63268/">
+      <SocialIcons href="https://www.linkedin.com/in/jose-luis-gonzalez-fragoso-b6bb63268/" target="blank">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
       <SocialIcons href="https://wa.me/528681012540">
