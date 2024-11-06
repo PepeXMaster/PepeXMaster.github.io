@@ -12,7 +12,7 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Chat</LinkTitle>
-          <LinkItem href="https://www.linkedin.com/in/jose-luis-gonzalez-fragoso-b6bb63268/">LinkedIn</LinkItem>
+          <LinkItem href="https://www.linkedin.com/in/jose-luis-gonzalez-fragoso-b6bb63268/" target="blank">LinkedIn</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
@@ -32,10 +32,10 @@ const Footer = () => {
           {/* <Slogan>Copyright &copy; {year} <Link href="https://www.vipuljha.com">  Vipul Jha</Link>. All rights reserved.</Slogan> */}
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://www.linkedin.com/in/jose-luis-gonzalez-fragoso-b6bb63268/">
+          <SocialIcons href="https://www.linkedin.com/in/jose-luis-gonzalez-fragoso-b6bb63268/" target="blank">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://wa.me/528681012540">
+          <SocialIcons href="https://wa.me/528681012540" target="blank">
             <AiOutlineWhatsApp size="3rem" />
           </SocialIcons>
           <SocialIcons href="mailto:pepe3fragoso@gmail.com">
