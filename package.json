@@ -2,7 +2,8 @@
   "name": "portfolio_nextjs",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://PepeXMaster.github.io/portfolio_nextjs",
+  "homepage": "https://pepexmaster.github.io/PepeXMaster.github.io",
+
 
   "scripts": {
   "build": "next build",
