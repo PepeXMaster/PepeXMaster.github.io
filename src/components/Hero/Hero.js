@@ -14,10 +14,13 @@ const Hero = (props) => (
         <SectionText>
         Hi, I'm a mechatronics engineer with a concentration in automotive engineering. I'm always eager to learn and strive to stay a step ahead, constantly seeking innovative solutions and growth in everything I do as an engineer.
         </SectionText>
-        <Button onClick={(e) => {
-          e.preventDefault();
-          window.location.href = '/files/JoseLuisGonzalezFragoso_Resume.pdf';
-        }}>My Resume</Button>
+        <a 
+          href="/Reportes/JoseLuisGonzalezFragoso_Resume.pdf" 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
+          <Button>My Resume</Button>
+        </a>
       </LeftSection>
     </Section>
   </>

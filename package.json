@@ -6,9 +6,10 @@
 
 
   "scripts": {
-  "build": "next build",
-  "export": "next build",
-  "deploy": "yarn export && gh-pages -d out"
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next build",
+    "deploy": "yarn export && gh-pages -d out"
   },
   "dependencies": {
     "@babel/runtime": "^7.26.0",

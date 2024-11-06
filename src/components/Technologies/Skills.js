@@ -16,7 +16,7 @@ export const Skills = [
     Component: SiAnsys,
     title: "Ansys",
     Description: () => <>Static Structural, Acceleration Analysis, Impact Analysis</>,
-    icon:"true"
+    icon:"false"
   },
   {
     slug: "Manufacturing",
